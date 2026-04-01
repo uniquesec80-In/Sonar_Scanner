@@ -1,7 +1,4 @@
-import sqlite3
+import os
 
-username = input("Enter username: ")
-
-query = "SELECT * FROM users WHERE username = '" + username + "'"
-
-print(query)
+user_input = input("Enter command: ")
+os.system(user_input)
